@@ -7,9 +7,10 @@
   /** @ngInject */
   function ProfilePageCtrl($scope, $state) {
     if (sessionStorage.getItem('su') == undefined) {
-      location.href = 'auth.html';
+      // location.href = 'auth.html';
+      // location.href='#/Dashboard';
     }
-    
+    console.log(sessionStorage);
   }
 
 })();

@@ -6,12 +6,13 @@
 
     'BlurAdmin.pages.profile',
     'BlurAdmin.pages.dashboard',
-    'BlurAdmin.pages.ui',
-    'BlurAdmin.pages.components',
-    'BlurAdmin.pages.form',
-    'BlurAdmin.pages.tables',
-    'BlurAdmin.pages.charts',
-    'BlurAdmin.pages.maps',
+    // 'BlurAdmin.pages.ui',
+    // 'BlurAdmin.pages.components',
+    // 'BlurAdmin.pages.form',
+    // 'BlurAdmin.pages.tables',
+    // 'BlurAdmin.pages.charts',
+    // 'BlurAdmin.pages.maps',
+    'BlurAdmin.pages.course-management',
 
   ]).config(routeConfig);
 
